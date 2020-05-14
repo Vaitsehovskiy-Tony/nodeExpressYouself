@@ -1,0 +1,34 @@
+{
+  "name": "node-express-youself",
+  "version": "0.0.3",
+  "description": "learning node.js and express.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon --watch ./routes/users.js --watch app.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vaitsehovskiy-Tony/nodeExpressYouself.git"
+  },
+  "keywords": [
+    "node.js",
+    "express.js"
+  ],
+  "author": "Anton Vaitsehovskiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vaitsehovskiy-Tony/nodeExpressYouself/issues"
+  },
+  "homepage": "https://github.com/Vaitsehovskiy-Tony/nodeExpressYouself#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
