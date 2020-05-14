@@ -8,8 +8,8 @@ const { PORT = 3000 } = process.env;
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', routerUsers);
-app.use('/', routerCards);
+app.use('/users', routerUsers);
+app.use('/cards', routerCards);
 
 app.use((req, res) => {
   res.status(404).send({ message: 'Запрашиваемый ресурс не найден' });
